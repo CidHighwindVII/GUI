@@ -95,5 +95,19 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common Libs\Lib1\Lib1\Lib1.csproj">
+      <Project>{bcb01c54-43f5-4f9c-897d-1abb065f272c}</Project>
+      <Name>Lib1</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Common Libs\Lib2\Lib2\Lib2.csproj">
+      <Project>{fd807934-461e-41b5-af5d-8cc151a07938}</Project>
+      <Name>Lib2</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Common Libs\Lib3\Lib3\Lib3.csproj">
+      <Project>{3564b740-0258-41f4-b64d-7820b2875cf4}</Project>
+      <Name>Lib3</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
